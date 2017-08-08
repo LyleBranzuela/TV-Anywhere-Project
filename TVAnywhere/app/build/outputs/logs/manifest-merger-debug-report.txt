@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidMan
 		INJECTED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\lyleb\.android\build-cache\2c2146b243c6360f14af22b5b3971dc17ad56251\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\lyleb\.android\build-cache\8ca42fad621c8772eadd45b43b499258d2ef95f1\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\lyleb\.android\build-cache\9cc43b5256e1ca59b1f0751f90011bc3e35e6ac0\output\AndroidManifest.xml:25:5-20
@@ -51,6 +51,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.visiostudios.tvanywhere.activity_main
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:19:9-60
+	android:name
+		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:19:19-48
 uses-sdk
 INJECTED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\lyleb\.android\build-cache\2c2146b243c6360f14af22b5b3971dc17ad56251\output\AndroidManifest.xml:21:5-23:78

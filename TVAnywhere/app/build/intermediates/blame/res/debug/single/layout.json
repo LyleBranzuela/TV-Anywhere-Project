@@ -364,6 +364,10 @@
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
+        "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
         "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout\\abc_search_view.xml"
     }

@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">TvAnywhere</string>
+    <string name="app_name"></string>
+    <string name="nowPlaying">NOW PLAYING:</string>
+    <string name="next">NEXT:</string>
 </resources>
