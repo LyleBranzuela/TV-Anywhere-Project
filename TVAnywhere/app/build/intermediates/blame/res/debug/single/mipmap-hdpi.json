@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\Github\\Projects\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "C:\\Github\\Projects\\TVAnywhere\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Github\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
@@ -12,7 +12,7 @@
         "source": "C:\\Github\\TVAnywhere\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Github\\Projects\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "C:\\Github\\Projects\\TVAnywhere\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }
 ]
