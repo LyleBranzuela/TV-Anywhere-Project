@@ -1,5 +1,29 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">TV Anywhere</string>
+    <!-- Channel Strings -->
+    <string name="channelThree">Channel 3</string>
+    <string name="channelFour">Channel 4</string>
+    <string name="channelEleven">Channel 11</string>
+        <!-- Channel Name Strings -->
+        <string name="threeTV">Three TV</string>
+        <string name="bravoTV">Bravo TV</string>
+        <string name="theEdgeTV">The Edge TV</string>
+    <!-- End of Channel Strings -->
+
+
+
+
+    <!-- Start of Now Playing Strings -->
     <string name="nowPlaying">NOW PLAYING:</string>
+        <string name="nowPlayingListC3">Placeholder Now Playing</string>
+        <string name="nowPlayingListC4">Placeholder Now Playing</string>
+        <string name="nowPlayingListC11">Placeholder Now Playing</string>
+    <!-- End of Now Playing List Strings -->
+
+    <!-- Start of Next Strings -->
     <string name="next">NEXT:</string>
+        <string name="nextListC3">Placeholder Next</string>
+        <string name="nextListC4">Placeholder Next</string>
+        <string name="nextListC11">Placeholder Next</string>
+    <!-- End of Next Strings -->
 </resources>

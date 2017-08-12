@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
+    <!-- General Use/Colored Bars -->
     <style name="Graybar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">50dp</item>
@@ -17,6 +18,7 @@
     <style name="Divider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">8dp</item>
         <item name="android:background">@color/colorAccent</item>
     </style>
 
@@ -25,5 +27,56 @@
         <item name="android:layout_height">60dp</item>
         <item name="android:background">@color/colorPrimaryDark</item>
     </style>
+    <!-- End of General Use/Colored Bars -->
+
+
+    <!-- Start of Text Styles -->
+    <style name="ChannelLayouts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChannelNames">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NowPlayingAndList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Start of Now Playing Styles -->
+    <style name="NowPlayingList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="NextList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <!-- End of Text Styles-->
 
 </resources>
