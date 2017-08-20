@@ -440,7 +440,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name"/>
+    <string name="app_name">TV Anywhere</string>
     <string name="bravoTV">Bravo TV</string>
     <string name="channelEleven">Channel 11</string>
     <string name="channelFour">Channel 4</string>
@@ -457,6 +457,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="theEdgeTV">The Edge TV</string>
     <string name="threeTV">Three TV</string>
+    <string name="title_activity_list">ListActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1467,8 +1468,18 @@
     </style>
     <style name="BottomBlackBar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+    <style name="Buttons">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
     </style>
     <style name="ChannelLayouts">
         <item name="android:layout_width">wrap_content</item>
@@ -1488,12 +1499,16 @@
     <style name="Divider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">8dp</item>
         <item name="android:background">@color/colorAccent</item>
     </style>
     <style name="Graybar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_height">60dp</item>
         <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
     </style>
     <style name="NextList">
         <item name="android:layout_width">wrap_content</item>

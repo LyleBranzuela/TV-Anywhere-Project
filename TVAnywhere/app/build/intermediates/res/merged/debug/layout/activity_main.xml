@@ -8,23 +8,21 @@
     tools:context="com.visiostudios.tvanywhere.MainActivity">
     <!-- Start of Navigation Bar Layout -->
     <View style="@style/Graybar"
-        android:layout_marginLeft="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginRight="0dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:id="@+id/grayBar"/>
+        android:id="@+id/grayBar"
+        app:layout_constraintHorizontal_bias="1.0" />
 
     <View
         android:id="@+id/homeBlackBar"
         style="@style/BottomBlackBar"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/dividerThree"
+        android:layout_marginBottom="0dp" />
     <!-- End of Navigation Bar Layout -->
 
     <!-- Start of Three TV Layout -->
@@ -60,6 +58,18 @@
         android:textColor="@color/secondaryColorPrimaryLight"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nowPlayingC3" />
+
+    <ImageButton
+        android:id="@+id/buttonC3"
+        style="@style/Buttons"
+        android:layout_marginRight="0dp"
+        android:background="@color/secondaryColorPrimaryLight"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/dividerOne"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grayBar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/monitor" />
     <!-- End of Three TV Layout -->
 
     <View
@@ -67,7 +77,6 @@
         style="@style/Divider"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/nextC3"/>
 
     <!-- Start of Bravo TV Layout -->
@@ -103,16 +112,26 @@
         android:textColor="@color/secondaryColorPrimary"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nowPlayingC4" />
+
+    <ImageButton
+        android:id="@+id/buttonC4"
+        style="@style/Buttons"
+        android:layout_marginRight="0dp"
+        android:background="@color/secondaryColorPrimary"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/dividerTwo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerOne"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/monitor" />
+
     <!--  End of Bravo TV Layout -->
 
     <View
         android:id="@+id/dividerTwo"
         style="@style/Divider"
-        android:layout_marginRight="0dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/nextC4" />
 
     <!-- Start of Edge TV Layout -->
@@ -148,7 +167,26 @@
         android:textColor="@color/secondaryColorPrimaryDark"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nowPlayingC11" />
+
+    <ImageButton
+        android:id="@+id/buttonC11"
+        style="@style/Buttons"
+        android:layout_marginRight="0dp"
+        android:background="@color/secondaryColorPrimaryDark"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/dividerThree"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerTwo"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/monitor" />
     <!-- End of Edge TV Layout -->
+
+    <View
+        android:id="@+id/dividerThree"
+        style="@style/Divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextC11" />
 
     <!-- JSON Now Playing List -->
     <TextView
@@ -157,12 +195,14 @@
         android:text="@string/nowPlayingListC3"
         app:layout_constraintLeft_toRightOf="@+id/nowPlayingC3"
         app:layout_constraintBaseline_toBaselineOf="@+id/nowPlayingC3" />
+
     <TextView
         android:id="@+id/nowPlayingListC4"
         style="@style/NowPlayingList"
         android:text="@string/nowPlayingListC4"
         app:layout_constraintLeft_toRightOf="@+id/nowPlayingC4"
         app:layout_constraintBaseline_toBaselineOf="@+id/nowPlayingC4" />
+
     <TextView
         android:id="@+id/nowPlayingListC11"
         style="@style/NowPlayingList"

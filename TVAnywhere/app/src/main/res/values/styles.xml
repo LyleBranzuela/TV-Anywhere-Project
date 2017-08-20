@@ -11,8 +11,11 @@
     <!-- General Use/Colored Bars -->
     <style name="Graybar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_height">60dp</item>
         <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
     </style>
 
     <style name="Divider">
@@ -24,11 +27,20 @@
 
     <style name="BottomBlackBar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
     </style>
     <!-- End of General Use/Colored Bars -->
-
+    <style name="Buttons">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
 
     <!-- Start of Text Styles -->
     <style name="ChannelLayouts">
