@@ -232,6 +232,10 @@
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
         "merged": "C:\\Github\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout\\abc_screen_content_include.xml"
     },

@@ -40,6 +40,7 @@
         <item name="android:layout_marginBottom">0dp</item>
         <item name="android:layout_marginRight">0dp</item>
         <item name="android:layout_marginTop">0dp</item>
+        <item name="android:scaleType">fitCenter</item>
     </style>
 
     <!-- Start of Text Styles -->
