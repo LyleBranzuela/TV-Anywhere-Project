@@ -16,14 +16,16 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         Intent intent = getIntent();
+//        finishIntent();
+
         ArrayList<String> schedule = intent.getStringArrayListExtra("schedule");
         String playUrl = intent.getStringExtra("playUrl");
-
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(schedule.toString());
+        textView.setText(schedule.get(0));
+
     }
     private void finishIntent() {
-        finish();
+//        finish();
         overridePendingTransition(R.anim.slide_from_left, R.anim.slide_to_right);
     }
 }

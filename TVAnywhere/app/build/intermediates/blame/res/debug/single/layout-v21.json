@@ -4,14 +4,6 @@
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Github\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Github\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
         "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -20,15 +12,7 @@
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Github\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Github\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]
