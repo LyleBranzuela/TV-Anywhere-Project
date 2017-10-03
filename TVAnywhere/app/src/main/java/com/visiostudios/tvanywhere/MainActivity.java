@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -125,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         return sb.toString();
     }
 
+    // Format of the Date Shown in the Next Activity
     private ArrayList<String> getChannelList (JSONObject jsonList , String channel) {
         ArrayList<String> response = new ArrayList<String>();
         SimpleDateFormat dF = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
@@ -158,21 +158,6 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject channelObject = jsonArray.getJSONObject(x);
                     JSONArray broadcasts = channelObject.getJSONArray("broadcasts");
                     playing = broadcasts.getJSONObject(index).getString("title");
-
-//                    for (int y = 0; y < broadcasts.length(); y++) {
-//                        SimpleDateFormat dF = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
-//                        dF.setTimeZone(TimeZone.getTimeZone("GMT"));
-//                        Calendar today = new GregorianCalendar();
-//                        today.setTimeZone(TimeZone.getTimeZone("GMT"));
-//                        Date start = dF.parse(broadcasts.getJSONObject(y).getString("startDate"));
-//                        Date end = dF.parse(broadcasts.getJSONObject(y).getString("endDate"));
-//                        if (start.getTime() >= today.getTimeInMillis() && end.getTime() <= today.getTimeInMillis()) {
-//                                nowPlaying[0] = broadcasts.getJSONObject(y).getString("title");
-//                            if (y < broadcasts.length()) {
-//                                nowPlaying[1] = broadcasts.getJSONObject(y+1).getString("title");
-//                            }
-//                        }
-//                    }
                 }
             }
         } catch (Exception e) {

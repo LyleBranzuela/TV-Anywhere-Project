@@ -3,9 +3,9 @@ package com.visiostudios.tvanywhere;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ListActivity extends AppCompatActivity {
@@ -18,10 +18,15 @@ public class ListActivity extends AppCompatActivity {
         Intent intent = getIntent();
 //        finishIntent();
 
+        ListView scheduleListView = (ListView) findViewById(R.id.scheduleListView);
+
         ArrayList<String> schedule = intent.getStringArrayListExtra("schedule");
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, schedule);
+
+        scheduleListView.setAdapter(arrayAdapter);
+
         String playUrl = intent.getStringExtra("playUrl");
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(schedule.get(0));
 
     }
     private void finishIntent() {
