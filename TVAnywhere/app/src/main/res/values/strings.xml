@@ -24,5 +24,6 @@
     <string name="nextListC4">Placeholder Next</string>
     <string name="nextListC11">Placeholder Next</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_stream">StreamActivity</string>
     <!-- End of Next Strings -->
 </resources>

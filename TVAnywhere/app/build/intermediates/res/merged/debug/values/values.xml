@@ -459,6 +459,7 @@
     <string name="theEdgeTV">The Edge TV</string>
     <string name="threeTV">Three TV</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_stream">StreamActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1469,7 +1470,7 @@
     </style>
     <style name="BottomBlackBar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:layout_marginBottom">0dp</item>
         <item name="android:layout_marginLeft">0dp</item>
@@ -1487,7 +1488,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">32sp</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="ChannelNames">
@@ -1495,7 +1496,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginTop">0dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">22sp</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Divider">
@@ -1507,7 +1508,7 @@
     <style name="Graybar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/colorAccent</item>
         <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_marginRight">0dp</item>
         <item name="android:layout_marginLeft">0dp</item>
@@ -1515,28 +1516,35 @@
     <style name="NextList">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:textStyle">bold</item>
+        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginLeft">0dp</item>
         <item name="android:layout_marginBottom">8dp</item>
+        <!--<item name="android:maxLines">1</item>-->
+        <!--<item name="android:maxLength">30</item>-->
+        <!--<item name="android:ellipsize">end</item>-->
+
     </style>
     <style name="NowPlayingAndList">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginTop">0dp</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="NowPlayingList">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:textStyle">bold</item>
+        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginLeft">0dp</item>
         <item name="android:layout_marginBottom">0dp</item>
+        <!--<item name="android:maxLines">1</item>-->
+        <!--<item name="android:maxLength">30</item>-->
+        <!--<item name="android:ellipsize">end</item>-->
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

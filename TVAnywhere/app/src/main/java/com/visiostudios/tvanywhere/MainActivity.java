@@ -59,12 +59,13 @@ public class MainActivity extends AppCompatActivity {
         nextListC11.setText(getNowPlaying(liveTV , "theedgetv" , 1));
 
 
-        // Sending JSON to the other Activity
+        // Sending JSON Array List, Video Stream Link, and The Channel Title to the other Activity
         ImageButton buttonC3 = (ImageButton)findViewById(R.id.buttonC3);
         buttonC3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launchActivity(channel3 , "channel3");
+                launchActivity(channel3 , "http://players.brightcove.net/3812193411001/ryftAvCY_default/index.html?videoId=5455129193001&autoplay=true"
+                        ,"channel3");
             }
         });
 
@@ -72,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
         buttonC4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launchActivity(channel4 , "channel4");
+                launchActivity(channel4 , "http://players.brightcove.net/3812193411001/ryftAvCY_default/index.html?videoId=5451543064001&autoplay=true"
+                        , "channel4");
             }
         });
 
@@ -80,7 +82,8 @@ public class MainActivity extends AppCompatActivity {
         buttonC11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launchActivity(channel11 , "channel11");
+                launchActivity(channel11 , "http://players.brightcove.net/3812193411001/ryftAvCY_default/index.html?videoId=5455128122001&autoplay=true"
+                        , "channel11");
         }
         });
 
@@ -167,10 +170,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void launchActivity(ArrayList<String> schedule , String playUrl) {
+    private void launchActivity(ArrayList<String> schedule , String playUrl , String channel) {
         Intent intent = new Intent(MainActivity.this, ListActivity.class);
         intent.putStringArrayListExtra("schedule", schedule);
         intent.putExtra("playUrl" , playUrl);
+        intent.putExtra("channelName" , channel);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
     }

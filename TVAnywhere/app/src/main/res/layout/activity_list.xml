@@ -6,12 +6,55 @@
     android:layout_height="match_parent"
     tools:context="com.visiostudios.tvanywhere.ListActivity">
 
+
+    <View
+        android:id="@+id/grayBar2"
+        style="@style/Graybar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/liveStreamButton"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/secondaryColorPrimary"
+        android:onClick="onClick"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/scheduleListView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grayBar2"
+        app:srcCompat="@drawable/television_b" />
+
+    <TextView
+        android:id="@+id/tvGuideName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/bravoTV"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/scheduleListView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/liveStreamButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ListView
         android:id="@+id/scheduleListView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimary"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grayBar2" />
+
 </android.support.constraint.ConstraintLayout>

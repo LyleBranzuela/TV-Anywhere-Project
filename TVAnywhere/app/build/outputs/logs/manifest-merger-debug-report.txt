@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:8:5-23:19
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:8:5-26:19
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\lyleb\.android\build-cache\2c2146b243c6360f14af22b5b3971dc17ad56251\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\lyleb\.android\build-cache\8ca42fad621c8772eadd45b43b499258d2ef95f1\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\lyleb\.android\build-cache\9cc43b5256e1ca59b1f0751f90011bc3e35e6ac0\output\AndroidManifest.xml:25:5-20
@@ -46,23 +46,29 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ly
 	android:theme
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.visiostudios.tvanywhere.MainActivity
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:15:9-20:20
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:16:13-19:29
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
 ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
 		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.visiostudios.tvanywhere.ListActivity
-ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:21:9-22:20
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:22:19-47
+activity#com.visiostudios.tvanywhere.StreamActivity
+ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:23:9-25:70
+	android:label
+		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:25:13-58
+	android:name
+		ADDED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml:24:13-43
 uses-sdk
 INJECTED from C:\Github\REPO\TV-Anywhere-Project\TVAnywhere\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\lyleb\.android\build-cache\2c2146b243c6360f14af22b5b3971dc17ad56251\output\AndroidManifest.xml:21:5-23:78
