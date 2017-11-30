@@ -5,3 +5,4 @@
             android:interpolator="@android:anim/accelerate_decelerate_interpolator"
             android:duration="@integer/slide_animation_duration"/>
     </set>
+

@@ -4,6 +4,10 @@
         "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_tv_anywhere.png",
+        "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\mipmap-mdpi\\ic_tv_anywhere.png"
+    },
+    {
         "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\monitor.png",
         "source": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\src\\main\\res\\mipmap-mdpi\\monitor.png"
     },

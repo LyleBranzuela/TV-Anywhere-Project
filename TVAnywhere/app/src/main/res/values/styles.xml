@@ -1,18 +1,18 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryDark</item>
-        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
     <!-- General Use/Colored Bars -->
     <style name="Graybar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
         <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_marginRight">0dp</item>
         <item name="android:layout_marginLeft">0dp</item>
@@ -27,7 +27,7 @@
 
     <style name="BottomBlackBar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">60dp</item>
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:layout_marginBottom">0dp</item>
         <item name="android:layout_marginLeft">0dp</item>
@@ -76,12 +76,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginLeft">0dp</item>
         <item name="android:layout_marginBottom">0dp</item>
-        <!--<item name="android:maxLines">1</item>-->
-        <!--<item name="android:maxLength">30</item>-->
-        <!--<item name="android:ellipsize">end</item>-->
     </style>
 
     <style name="NextList">
@@ -89,13 +85,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorAccent</item>
-        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginLeft">0dp</item>
         <item name="android:layout_marginBottom">8dp</item>
-        <!--<item name="android:maxLines">1</item>-->
-        <!--<item name="android:maxLength">30</item>-->
-        <!--<item name="android:ellipsize">end</item>-->
-
     </style>
     <!-- End of Text Styles-->
 

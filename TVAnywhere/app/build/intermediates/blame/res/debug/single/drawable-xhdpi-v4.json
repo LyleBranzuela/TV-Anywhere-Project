@@ -32,12 +32,12 @@
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\lyleb\\.android\\build-cache\\2c2146b243c6360f14af22b5b3971dc17ad56251\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "C:\\Github\\REPO\\TV-Anywhere-Project\\TVAnywhere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",

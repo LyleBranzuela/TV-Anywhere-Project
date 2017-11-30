@@ -8,31 +8,34 @@
     tools:context="com.visiostudios.tvanywhere.MainActivity">
     <!-- Start of Navigation Bar Layout -->
 
-    <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/grayBar"
+        style="@style/Graybar"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintHorizontal_bias="0.0">
+        android:layout_gravity="center"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/backgroundColor">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/grayBar"
+        app:layout_constraintBottom_toTopOf="@+id/homeBlackBar">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <View
-                android:id="@+id/grayBar"
-                style="@style/Graybar"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            android:layout_height="match_parent">
 
             <!-- Start of Three TV Layout -->
             <TextView
@@ -42,7 +45,7 @@
                 android:text="@string/channelThree"
                 android:textColor="@color/secondaryColorPrimaryLight"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/grayBar" />
+                app:layout_constraintTop_toBottomOf="parent" />
 
             <TextView
                 android:id="@+id/threeTV"
@@ -71,13 +74,14 @@
             <ImageButton
                 android:id="@+id/buttonC3"
                 style="@style/Buttons"
-                android:layout_marginRight="0dp"
                 android:background="@color/secondaryColorPrimaryLight"
                 android:contentDescription="@string/threeTV"
                 app:layout_constraintBottom_toTopOf="@+id/dividerOne"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/grayBar"
-                app:srcCompat="@drawable/ic_list" />
+                app:srcCompat="@drawable/ic_list"
+                app:layout_constraintTop_toTopOf="parent"
+                android:elevation="2dp"
+                android:layout_marginTop="0dp" />
             <!-- End of Three TV Layout -->
 
             <View
@@ -130,6 +134,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/dividerOne"
                 app:layout_constraintVertical_bias="1.0"
+                android:elevation="2dp"
                 app:srcCompat="@drawable/ic_list" />
             <!-- End of Bravo TV Layout -->
 
@@ -183,6 +188,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/dividerTwo"
                 app:layout_constraintVertical_bias="1.0"
+                android:elevation="2dp"
                 app:srcCompat="@drawable/ic_list" />
             <!-- End of Edge TV Layout -->
 
@@ -198,6 +204,11 @@
                 android:id="@+id/nowPlayingListC3"
                 style="@style/NowPlayingList"
                 android:layout_marginLeft="2dp"
+                android:maxLength="15"
+                android:scrollHorizontally = "true"
+                android:minLines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
                 android:text="@string/nowPlayingListC3"
                 app:layout_constraintBaseline_toBaselineOf="@+id/nowPlayingC3"
                 app:layout_constraintLeft_toRightOf="@+id/nowPlayingC3" />
@@ -205,59 +216,81 @@
             <TextView
                 android:id="@+id/nowPlayingListC4"
                 style="@style/NowPlayingList"
+                android:layout_marginLeft="2dp"
+                android:maxLength="15"
+                android:scrollHorizontally = "true"
+                android:minLines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
                 android:text="@string/nowPlayingListC4"
                 app:layout_constraintBaseline_toBaselineOf="@+id/nowPlayingC4"
-                app:layout_constraintLeft_toRightOf="@+id/nowPlayingC4"
-                android:layout_marginLeft="2dp" />
+                app:layout_constraintLeft_toRightOf="@+id/nowPlayingC4" />
 
             <TextView
                 android:id="@+id/nowPlayingListC11"
                 style="@style/NowPlayingList"
+                android:layout_marginLeft="2dp"
+                android:maxLength="15"
+                android:scrollHorizontally = "true"
+                android:minLines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
                 android:text="@string/nowPlayingListC11"
                 app:layout_constraintBaseline_toBaselineOf="@+id/nowPlayingC11"
-                app:layout_constraintLeft_toRightOf="@+id/nowPlayingC11"
-                android:layout_marginLeft="2dp" />
+                app:layout_constraintLeft_toRightOf="@+id/nowPlayingC11" />
             <!-- End of JSON Now Playing List -->
 
             <!-- JSON Next List -->
             <TextView
                 android:id="@+id/nextListC3"
                 style="@style/NextList"
+                android:layout_marginLeft="2dp"
+                android:maxLength="15"
+                android:scrollHorizontally = "true"
+                android:minLines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
                 android:text="@string/nextListC3"
                 app:layout_constraintBaseline_toBaselineOf="@+id/nextC3"
-                app:layout_constraintLeft_toRightOf="@+id/nextC3"
-                android:layout_marginLeft="2dp" />
+                app:layout_constraintLeft_toRightOf="@+id/nextC3" />
 
             <TextView
                 android:id="@+id/nextListC4"
                 style="@style/NextList"
+                android:layout_marginLeft="2dp"
+                android:maxLength="15"
+                android:scrollHorizontally = "true"
+                android:minLines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
                 android:text="@string/nextListC4"
                 app:layout_constraintBaseline_toBaselineOf="@+id/nextC4"
-                app:layout_constraintLeft_toRightOf="@+id/nextC4"
-                android:layout_marginLeft="2dp" />
+                app:layout_constraintLeft_toRightOf="@+id/nextC4" />
 
             <TextView
                 android:id="@+id/nextListC11"
                 style="@style/NextList"
+                android:layout_marginLeft="2dp"
+                android:maxLength="15"
+                android:scrollHorizontally  ="true"
+                android:ellipsize="end"
+                android:minLines="2"
+                android:maxLines="2"
                 android:text="@string/nextListC11"
                 app:layout_constraintBaseline_toBaselineOf="@+id/nextC11"
-                app:layout_constraintLeft_toRightOf="@+id/nextC11"
-                android:layout_marginLeft="2dp" />
+                app:layout_constraintLeft_toRightOf="@+id/nextC11" />
             <!-- End of JSON Next List -->
-
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
-
     <View
         android:id="@+id/homeBlackBar"
         style="@style/BottomBlackBar"
+        android:layout_width="wrap_content"
         android:layout_marginBottom="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-
 </android.support.constraint.ConstraintLayout>
